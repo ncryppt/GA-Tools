@@ -1,5 +1,4 @@
-// Checkout steps for the Checkout Behavior report in Google Analytics from digitaldarts.com.au/analytics\
-var ShopifyCheckoutstep = Shopify.Checkout.step;\
+{ var ShopifyCheckoutstep = Shopify.Checkout.step;\
 switch (ShopifyCheckoutstep) \{\
   case "contact_information":\
     ga("require", "ec");\
